@@ -65,7 +65,7 @@ end
 -- testing IDENTITY monad
 
 local Identity = IDENTITY()
-local monad = Identity("Indentity String")
+local monad = Identity("Identity String")
 monad.bind(print)
 
 -- testing AJAX monad
